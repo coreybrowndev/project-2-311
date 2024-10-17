@@ -9,7 +9,8 @@
       "nextReview": "2024-10-16T12:00:00Z",
       "correctStreak": 3,
       "incorrectStreak": 1,
-      "knownLevel": 3
+      "knownLevel": 3,
+      "understandingPercentage": "100.0"
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       "nextReview": "2024-10-17T12:00:00Z",
       "correctStreak": 1,
       "incorrectStreak": 2,
-      "knownLevel": 1
+      "knownLevel": 1,
+      "understandingPercentage": "33.33"
     },
     {
       "id": 3,
@@ -31,18 +33,20 @@
       "nextReview": "2024-10-18T12:00:00Z",
       "correctStreak": 2,
       "incorrectStreak": 0,
-      "knownLevel": 2
+      "knownLevel": 2,
+      "understandingPercentage": "66.66"
     },
     {
       "id": 4,
-      "question": "Who wrote 'Hamlet'?",
-      "answer": "William Shakespeare",
+      "question": "How many branches does the US government have?",
+      "answer": "3",
       "difficulty": 2,
       "lastReviewed": "2024-10-15T12:00:00Z",
       "nextReview": "2024-10-20T12:00:00Z",
       "correctStreak": 4,
       "incorrectStreak": 0,
-      "knownLevel": 3
+      "knownLevel": 3,
+      "understandingPercentage": "100.0"
     },
     {
       "id": 5,
@@ -53,7 +57,8 @@
       "nextReview": "2024-10-16T12:00:00Z",
       "correctStreak": 3,
       "incorrectStreak": 1,
-      "knownLevel": 2
+      "knownLevel": 2,
+      "understandingPercentage": "66.66"
     },
     {
       "id": 6,
@@ -64,7 +69,8 @@
       "nextReview": "2024-10-17T12:00:00Z",
       "correctStreak": 1,
       "incorrectStreak": 3,
-      "knownLevel": 1
+      "knownLevel": 1,
+      "understandingPercentage": "33.33"
     }
   ]
 }
