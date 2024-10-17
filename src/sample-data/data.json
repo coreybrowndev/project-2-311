@@ -1,0 +1,70 @@
+{
+  "flashcards": [
+    {
+      "id": 1,
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "difficulty": 1,
+      "lastReviewed": "2024-10-15T12:00:00Z",
+      "nextReview": "2024-10-16T12:00:00Z",
+      "correctStreak": 3,
+      "incorrectStreak": 1,
+      "knownLevel": 3
+    },
+    {
+      "id": 2,
+      "question": "What is the boiling point of water?",
+      "answer": "100°C",
+      "difficulty": 2,
+      "lastReviewed": "2024-10-14T12:00:00Z",
+      "nextReview": "2024-10-17T12:00:00Z",
+      "correctStreak": 1,
+      "incorrectStreak": 2,
+      "knownLevel": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the largest mammal?",
+      "answer": "Blue Whale",
+      "difficulty": 1,
+      "lastReviewed": "2024-10-15T12:00:00Z",
+      "nextReview": "2024-10-18T12:00:00Z",
+      "correctStreak": 2,
+      "incorrectStreak": 0,
+      "knownLevel": 2
+    },
+    {
+      "id": 4,
+      "question": "Who wrote 'Hamlet'?",
+      "answer": "William Shakespeare",
+      "difficulty": 2,
+      "lastReviewed": "2024-10-15T12:00:00Z",
+      "nextReview": "2024-10-20T12:00:00Z",
+      "correctStreak": 4,
+      "incorrectStreak": 0,
+      "knownLevel": 3
+    },
+    {
+      "id": 5,
+      "question": "What is the chemical symbol for Gold?",
+      "answer": "Au",
+      "difficulty": 2,
+      "lastReviewed": "2024-10-13T12:00:00Z",
+      "nextReview": "2024-10-16T12:00:00Z",
+      "correctStreak": 3,
+      "incorrectStreak": 1,
+      "knownLevel": 2
+    },
+    {
+      "id": 6,
+      "question": "What year did World War II end?",
+      "answer": "1945",
+      "difficulty": 3,
+      "lastReviewed": "2024-10-12T12:00:00Z",
+      "nextReview": "2024-10-17T12:00:00Z",
+      "correctStreak": 1,
+      "incorrectStreak": 3,
+      "knownLevel": 1
+    }
+  ]
+}
