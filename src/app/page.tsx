@@ -4,10 +4,10 @@ import Container from "@/components/wrapper/Container";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-center">
+    <main className="flex flex-col justify-center gap-8">
       <Hero />
       <Container>
-        <div className="flex items-center justify-center outline outline-red-300">
+        <div className="flex items-center justify-center mb-8">
           <NewCard />
         </div>
       </Container>

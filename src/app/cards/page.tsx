@@ -1,8 +1,8 @@
+"use client";
 import Flashcards from "@/components/flashcards/Flashcards";
 import Container from "@/components/wrapper/Container";
 
 export default function CardsPage() {
-  //Homepage to add a new card
   return (
     <Container>
       <main className="flex flex-col gap-8 items-center justify-center">

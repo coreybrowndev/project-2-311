@@ -1,21 +1,25 @@
 "use client";
 
 import { setFlashcards } from "@/app/store/slice";
+import { RootState } from "@/app/store/store";
 import { useEffect } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 const CardLoader = () => {
   const dispatch = useDispatch();
+  const flashcards = useSelector((state: RootState) => state.flashcards.flashcards);
 
   useEffect(() => {
-    const loadCards = async () => {
-      const response = await fetch("/sample-data/data.json");
-      const data = await response.json();
-      dispatch(setFlashcards(data.flashcards));
-    };
+    if (flashcards.length === 0) {
+      const loadCards = async () => {
+        const response = await fetch("/sample-data/data.json");
+        const data = await response.json();
+        dispatch(setFlashcards(data.flashcards));
+      };
 
-    loadCards();
-  }, [dispatch]);
+      loadCards();
+    }
+  }, [dispatch, flashcards]);
 
   return null;
 };
