@@ -41,9 +41,8 @@ const CardDetailPage = () => {
   };
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="container mx-auto p-6 border border-slate-300 w-fit rounded-lg">
       <h2 className="text-2xl font-bold">{flashcard.question}</h2>
-      <p className="text-lg mt-4">Answer: {flashcard.answer}</p>
       <p>Understanding Level: {flashcard.understandingPercentage}%</p>
       <p>Next Review: {new Date(flashcard.nextReview).toLocaleDateString()}</p>
       <div className="mt-6 flex gap-4">

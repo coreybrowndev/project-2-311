@@ -14,7 +14,7 @@ const Flashcard = ({ flashcard }: FlashcardProps) => {
       className="border border-slate-200 p-4 min-h-[300px] rounded-lg flex flex-col border border-blue-300 items-center justify-center text-center cursor-pointer"
       onClick={() => router.push(`/cards/${flashcard.id.toString()}`)}
     >
-      <h3 className="text-xl">{flashcard.question}</h3>
+      <h3 className="text-xl font-bold">{flashcard.question}</h3>
       <p className="text-lg">Understanding: {flashcard.understandingPercentage}%</p>
     </div>
   );

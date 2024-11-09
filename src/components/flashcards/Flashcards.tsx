@@ -9,19 +9,16 @@ const Flashcards = () => {
   const flashcards = useSelector((state: RootState) => state.flashcards.flashcards);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Ensure currentIndex is always within bounds
   useEffect(() => {
     if (currentIndex >= flashcards.length) {
       setCurrentIndex(0);
     }
   }, [flashcards, currentIndex]);
 
-  // Function to go to the next card
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % flashcards.length);
   };
 
-  // Function to go to the previous card
   const handlePrevious = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + flashcards.length) % flashcards.length);
   };
